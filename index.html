@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/morris.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.4/raphael-min.js"></script>
+  </head>
+  <body ng-app="app">
+    <div ng-controller="TaxaDePermanenciaController">
+        <div id="permanencia"></div>
+        <button ng-click="saveImage()">
+          Salvar
+        </button>
+    </div>
+  </body>
+
+  <script src="js/morris.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/saveSvgAsPng.js"></script>
+</html>
